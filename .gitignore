@@ -1,0 +1,28 @@
+#.gitignore ile istemediğimiz dosyalara terminalin bakamamasını sağlıyoruz
+#gorseller
+#videolar
+#logolar
+#paket yoneticisi ile kurulmus dosyalar olabilir
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/task.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#img
+*.jpg
+*.png
+img/
+
+
+#videos
+*.mp4
+
+#packages
+
+#log
+*.log
+password.txt 
+#sifre bulunan dosyaları tutmaz
